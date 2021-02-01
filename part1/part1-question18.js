@@ -5,7 +5,7 @@ let statistics = {
     raceCars: 5,
     blackCars: 40,
     rareCars: 2
-};
+}
 
 for (const p in statistics) {
     if (p.charAt(0) === 'r' || (statistics[p] % 2) === 1) {
